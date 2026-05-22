@@ -16,6 +16,8 @@ import PrivateLayout from "../layouts/PrivateLayout";
 //importa las rutas protegidas y no protegidas
 import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
+import Profile from "../pages/Profile";
+import Settings from "../pages/Settings";
 
 export default function AppRoutes() {
   return (
@@ -51,6 +53,14 @@ export default function AppRoutes() {
           <Route
             path="/info"
             element={<Info />}
+          />
+          <Route
+            path="/settings"
+            element={<Settings />}
+          />
+          <Route
+            path="/profile"
+            element={<Profile />}
           />
         </Route>
         {/* 404 */}

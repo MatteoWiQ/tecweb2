@@ -3,6 +3,7 @@ export interface User {
   id: number;
   usuario: string;
   rol: string;
+  ciudad : string;
 }
 
 // INTERFACE QUE DEFINE LA RESPUESTA DEL LOGIN

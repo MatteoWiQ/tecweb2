@@ -18,10 +18,15 @@ export default function PrivateNavbar() {
       {" | "}
       <Link to="/info">Info</Link>
       {" | "}
+      <Link to="/settings">Settings</Link>
+      {" | "}
+      <Link to="/profile">Profile</Link>
+      {" | "}
       <button onClick={handleLogout}>Logout</button>
       <hr />
       <p>Usuario: {" "} {user?.usuario}</p>
       <p>Rol: {" "} {user?.rol}</p>
+      <p>Ciudad: {" "} {user?.ciudad}</p>
       <hr />
     </nav>
   );

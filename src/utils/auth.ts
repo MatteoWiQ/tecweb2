@@ -1,4 +1,4 @@
-//Funcion que verifica si el usuarioe sta autenticado
+  //Funcion que verifica si el usuarioe sta autenticado
 export function isAuthenticated(): boolean {
   return localStorage.getItem("auth") === "true";
 }
